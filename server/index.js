@@ -25,6 +25,8 @@ const CONNECTION_URL = process.env.CONNECTION_URL;
 
 const PORT = process.env.PORT || 5000;
 
+// YO BRO MY NAME IS DEVESH
+
 mongoose
   .connect(CONNECTION_URL, {
     useNewUrlParser: true,
