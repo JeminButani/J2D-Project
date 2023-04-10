@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import { AppBar, Avatar, Toolbar, Typography, Button } from "@material-ui/core";
-import memoriesLogo from "../../Images/memories-Logo.png";
-import memoriesText2 from "../../Images/memoriesText2.png";
+// import memoriesLogo from "../../Images/memories-Logo.png";
+// import memoriesText2 from "../../Images/memoriesText2.png";
+import Logo from  "../../assets/logo.jpg";
 import useStyles from "./styles";
 import { useDispatch } from "react-redux";
 import { useNavigate, useLocation } from "react-router-dom";
@@ -43,11 +44,11 @@ const Navbar = () => {
       <Link
         to="/"
         className={classes.brandContainer}
-        style={{ textDecoration: "none", color: "Black" }}
+        style={{ textDecoration: "none", color: "black" }}
       >
         {" "}
-        {/* <img src={memoriesText2} alt="icon" height="50px"className={classes.Icon} /> */}
-        J2D Knowledge Base
+        <img src={Logo} alt="icon" height="50px"className={classes.Icon} />
+        
         {/* <img
           className={classes.image}
           src={memoriesLogo}
