@@ -12,7 +12,7 @@ import App from "./App";
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
 
 ReactDOM.render(
-  <GoogleOAuthProvider clientId="695736801750-3shgeebko9p4j5imrtf7o01otq2r72id.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="454263157056-t8al346f7ottreudpq01bcoo06fk2e69.apps.googleusercontent.com">
     <Provider store={store}>
       <App />
     </Provider>

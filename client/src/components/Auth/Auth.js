@@ -34,7 +34,7 @@ const Auth = () => {
   const dispatch = useDispatch();
   const navigate = useNavigate();
   const clientId =
-    "695736801750-3shgeebko9p4j5imrtf7o01otq2r72id.apps.googleusercontent.com";
+    "454263157056-t8al346f7ottreudpq01bcoo06fk2e69.apps.googleusercontent.com";
 
   const handleShowPassword = () =>
     setshowPassword((prevShowPassword) => !prevShowPassword);
