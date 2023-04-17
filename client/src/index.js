@@ -10,7 +10,7 @@ import "./index.css";
 import App from "./App";
 
 const store = createStore(reducers, compose(applyMiddleware(thunk)));
-
+// google auth id changed
 ReactDOM.render(
   <GoogleOAuthProvider clientId="454263157056-t8al346f7ottreudpq01bcoo06fk2e69.apps.googleusercontent.com">
     <Provider store={store}>
