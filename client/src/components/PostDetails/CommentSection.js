@@ -41,7 +41,7 @@ const CommentSection = ({ post }) => {
           <div ref={commentsRef} />
         </div>
         {user && (
-          <div style={{ width: "70%" }}>
+          <div style={{ width: "70%" , flex:1,}}>
             <Typography gutterBottom variant="h6">
               Write a comment
             </Typography>
@@ -66,6 +66,11 @@ const CommentSection = ({ post }) => {
             </Button>
           </div>
         )}
+        {
+          !user &&(<div style={{ width: "70%" , flex:1,}}><Typography  variant="h6">
+          Sign In to comment!!
+        </Typography></div>)
+        }
       </div>
     </div>
   );
